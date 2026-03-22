@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kick Chat Filter</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Kick Chat Filter</h1>
+
+  <div id="filter-form">
+    <input type="text" id="filter-input" placeholder="Word, phrase, or regex..." />
+    <label>
+      <input type="checkbox" id="is-regex" /> Regex
+    </label>
+    <button id="add-btn">Add</button>
+  </div>
+
+  <ul id="filter-list"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
